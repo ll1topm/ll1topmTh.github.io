@@ -1,0 +1,724 @@
+@font-face {
+font-family: Proxima Nova;
+src: url(fonts/proxima nova light.otf);
+}
+
+
+.buttonText1 {
+position: absolute;
+top: 170px;
+left: 240px;
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+color: #fff;
+text-decoration: none;
+ background: rgb(0,69,130);
+border-radius: 8px;
+  padding: .7em 1.5em;
+  outline: none;
+
+} 
+#button1:hover { background: rgb(2,97,181); }
+#button1:active { background: rgb(2,69,150); }
+
+ .center1 {
+margin-left: 100px;
+ position: relative;
+top: 125px;
+
+vertical-align: middle;
+text-align: center;
+font-size: 20px;
+}
+
+.st1, .st2, .st3, .st4 {
+	margin-left: 35px;
+	float: left;
+	width: 380px;
+	padding-right: 50px;
+	position: relative;
+	top: 140px;
+}
+
+.text_1 {
+	margin: auto;
+	position: relative;
+	bottom: 35%;
+	font-size: 130%;
+	font-family: proxima nova;
+	color: #fff;
+	text-align: center;
+
+
+}
+
+.text_1f {
+	margin: auto;
+	position: relative;
+	font-size: 130%;
+	bottom: 5%;
+	font-family: proxima nova;
+	color: #fff;
+	text-align: center;
+}
+
+.text_2 {
+	margin: auto;
+	position: relative;
+	top: 10%; 
+	font-size: 26px;
+	font-family: proxima nova;
+	color: #fff;
+	text-align: center;
+
+
+}
+p {
+    margin-top: 0.5em; 
+    margin-bottom: 1em;
+}
+
+.foots1 {
+	margin: auto;
+	position: fixed;
+	font-size: 20px;
+bottom: 20%;
+	left: 10%;
+	font-family: proxima nova;
+	color: #a6a6a6;
+	font-weight: normal;
+	text-align: left;
+} 
+.foots2 {
+	margin: auto;
+	position: fixed;
+	font-size: 20px;
+bottom: 20%;
+	right: 10%;
+	font-family: proxima nova;
+	color: #a6a6a6;
+	font-weight: normal;
+	text-align: right;
+}
+#button2:hover { background: rgb(2,97,181); }
+#button2:active { background: rgb(2,69,150); }
+
+.text_3 {
+text-align: center;
+font-size: 170%;
+
+}
+
+.center2 {
+ position: absolute;
+ top: -100px;
+ right: 110%;}
+
+
+.buttonText3 {
+position: fixed;
+top: 170px;
+left: 240px;
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+color: #fff;
+text-decoration: none;
+ background: rgb(0,69,130);
+border-radius: 8px;
+  padding: .7em 1.5em;
+  outline: none;
+
+} 
+#button3:hover { background: rgb(2,97,181); }
+#button3:active { background: rgb(2,69,150); }
+
+.text_4 {
+    position: relative;
+    margin: 0 auto 1em;
+    padding: 1em 1em .25em 1em;
+    text-align: center;
+	top: 40%;
+	color: #fff;
+	font-size: 300%;
+}
+
+.text_f {
+    position: relative;
+    margin: 0 auto 1em;
+    padding: 1em 1em .25em 1em;
+    text-align: center;
+	/* top: 30%; */
+	color: #fff;
+	font-size: 300%;
+}
+
+.text_f2 {
+    position: relative;
+    margin: 0 auto 1em;
+    padding: 1em 1em .25em 1em;
+    text-align: center;
+	top: 10%;
+	color: #fff;
+	font-size: 300%;
+}
+
+ .center4 {
+display: block; 
+position: absolute;
+top: 110px;
+left: 170px;
+}
+
+.buttonText4 {
+margin: 5;
+color: #fff;
+text-decoration: none;
+border-radius: 8px;
+  padding: .7em 1.5em;
+  outline: none;
+  text-align: center;
+font-size: 170%;
+background: .4em #b43037;
+} 
+#button4:hover { border-bottom:.4em solid #b43037;}
+#button4:active { border-bottom:.4em solid #b43037; }
+
+.buttonText5 {
+position: fixed;
+bottom: 170px;
+left: 600px;
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+color: #fff;
+text-decoration: none;
+ background: rgb(0,69,130, 0.5);
+border-radius: 8px;
+  padding: .7em 1.5em;
+  outline: none;
+
+} 
+#button5:hover { border-bottom:.4em solid #b43037;}
+#button5:active { background: rgb(2,69,150); }
+
+.foottxt {
+position: absolute;
+left: -1000px;
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+color: #fff;
+text-decoration: none;
+ background: rgb(0,69,130, 0.5);
+  outline: none;
+
+} 
+#button6:hover { background: rgb(2,97,181); }
+#button6:active { background: rgb(2,69,150); }
+
+.buttonText7 {
+position: fixed;
+bottom: 170px;
+left: 1240px;
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+color: #fff;
+text-decoration: none;
+ background: rgb(0,69,130, 0.5);
+border-radius: 8px;
+  padding: .7em 1.5em;
+  outline: none;
+
+} 
+
+
+.buttonText8 {
+margin: 5;
+position: float-bottom;
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+color: #fff;
+text-decoration: none;
+border-radius: 8px;
+  padding: .7em 1.5em;
+  outline: none;
+} 
+
+
+#button8:hover { color: #fff; background: rgb(255,202,0); }
+#button8:active { background: rgb(255,120,0); }
+
+.p4 {
+ position: absolute;
+ top: 3%;
+ left: 70%;
+}
+
+.p1 {
+	position: relative;
+	left: 5%;
+	bottom: 5%; 
+    margin-bottom: 1em;
+	font-size: 26px;
+	font-family: proxima nova;
+}
+
+.p2 {
+	position: relative;
+	top: 10%; 
+    margin-bottom: 1em;
+	font-size: 36px;
+	font-family: proxima nova;
+	
+}
+.p3 {
+position: relative;
+	top: 60%; 
+    margin-bottom: 1em;
+	font-size: 20px;
+	font-family: proxima nova;
+	z-index: 10;
+}
+
+#zak : hover { color:#fff; z-index: 15;}
+
+.line {
+	position: relative;
+	top: 12.2%;
+	background: rgb (255,202,0);
+	}
+	.line1 {
+	position: relative;
+	top: 79.2%;
+	background: rgb (255,202,0);
+	}
+	
+	  #bg,
+#effect .cloud {
+  top: 0;
+  bottom: 35%;
+  left: 0;
+  right: 0;
+}
+#effect .cloud {
+  background-size: 100% 100%;
+ 
+  position: absolute;
+
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  -o-transform: translate3d(100%, 0, 0);
+	-ms-transform: translate3d(100%, 0, 0);
+	transform: translate3d(100%, 0, 0);
+}
+
+
+#effect .cloud-1 {
+  background-image: url('http://demo.bonefishcode.com/bone/file/assets/img/bg/cloud-01.png');
+  -webkit-animation: move 15s infinite linear;
+  -moz-animation: move 15s infinite linear;
+  -o-animation: move 15s infinite linear;
+  -ms-animation: move 15s infinite linear;
+  animation: move 15s infinite linear;
+}
+#effect .cloud-2 {
+  background-image: url('http://demo.bonefishcode.com/bone/file/assets/img/bg/cloud-02.png');
+  -webkit-animation: move 20s infinite linear;
+  -moz-animation: move 20s infinite linear;
+  -o-animation: move 20s infinite linear;
+  -ms-animation: move 20s infinite linear;
+  animation: move 20s infinite linear;
+}
+#effect .cloud-3 {
+  background-image: url('http://demo.bonefishcode.com/bone/file/assets/img/bg/cloud-03.png');
+  -webkit-animation: move 25s infinite linear;
+  -moz-animation: move 25s infinite linear;
+  -o-animation: move 25s infinite linear;
+  -ms-animation: move 25s infinite linear;
+  animation: move 25s infinite linear;
+}
+
+@-webkit-keyframes move {to {-webkit-transform: translate3d(-100%, 0, 0);}}
+@-moz-keyframes move {to {-moz-transform: translate3d(-100%, 0, 0);}}
+@-o-keyframes move {to {-o-transform: translate3d(-100%, 0, 0);}}
+@-ms-keyframes move {to {-ms-transform: translate3d(-100%, 0, 0);}}
+@keyframes move {to {transform: translate3d(-100%, 0, 0);}}
+	
+	
+.header {
+/* height: 60px; */
+height: 60px;
+background: url(../images/menu_red.png) no-repeat;
+background-size: 100%;
+width: 100%;
+}
+.up {
+	/* height: 20px; */
+	height: 20px;
+	background: url(../images/menu_red.png) no-repeat;
+	background-size: 100%;
+	width: 100%;
+}
+
+.footer {
+position: absolute;
+top: 170px;
+left: 510px;
+	
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+color: #fff;
+}
+
+
+.sliderA {
+	top: 1%;
+width: 80%;
+height: 55%;
+position: relative;
+text-align: center;
+vertical-align: middle;
+
+}
+.sliderA > input {
+        display: none;
+    }
+	.sliderA > input + label {
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        border-radius: 8px;
+        background: rgba(90, 90, 90, 0.8);
+        border: 2px solid rgba(190, 190, 190, 0.8);
+
+        cursor: pointer;
+        z-index: 100;
+        position: relative;
+		top: 95%;
+		
+        margin-right: 8px;
+
+        transition: background 0.8s ease-out 0s;
+    }
+
+    .sliderA > input + label:hover {
+        background: rgba(243, 3, 15, 0.8);
+    }
+
+    .sliderA > input:checked + label {
+        background: rgba(243, 3, 15, 0.8);
+    }
+	 .sliderA > div {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 0;
+    }
+	.sliderA > div {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+    }
+
+    .sliderA > input:checked + label + div {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+    }
+	    .sliderA > div > p {
+        position: absolute;
+        top: 65%;
+        left: 10%;
+        text-align: center;
+		font-size: 250%;
+        color: #fff;
+        text-shadow: 1px 1px 2px #000;
+    }
+	
+			.sliderA > div > a {
+		position: absolute;
+        top: 80%;
+		left: 10%;
+		width: 45%;
+        text-align: center;
+		font-size: 140%;
+        color: #fff;
+	}
+	
+	    .sliderA > input + label + div + label {
+        display: none;
+    }
+
+    .sliderA > input:checked + label + div + label {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 50;
+    }
+	
+.logo {
+margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 10%;
+	z-index: 50;
+}
+.leftimg {
+    float:left;
+    margin: 7px 15px 7px 0;
+   }
+   
+
+   
+   
+   .sliderA1 {
+	top: 15%;
+width: 80%;
+height: 50%;
+position: relative;
+text-align: center;
+vertical-align: middle;
+
+}
+.sliderA1 > input {
+        display: none;
+    }
+	.sliderA1 > input + label {
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        border-radius: 8px;
+        background: rgba(90, 90, 90, 0.8);
+        border: 2px solid rgba(190, 190, 190, 0.8);
+
+        cursor: pointer;
+        z-index: 100;
+        position: relative;
+		top: 90%;
+		
+        margin-right: 8px;
+
+        transition: background 0.8s ease-out 0s;
+    }
+
+    .sliderA1 > input + label:hover {
+        background: rgba(243, 3, 15, 0.8);
+    }
+
+    .sliderA1 > input:checked + label {
+        background: rgba(243, 3, 15, 0.8);
+    }
+	 .sliderA1 > div {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 0;
+    }
+	.sliderA1 > div {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+    }
+
+    .sliderA1 > input:checked + label + div {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+    }
+	    .sliderA1 > div > p {
+        position: absolute;
+        top: 65%;
+        left: 20%;
+        text-align: center;
+		font-size: 250%;
+        color: #fff;
+        text-shadow: 1px 1px 2px #000;
+    }
+	
+			.sliderA1 > div > a {
+		position: absolute;
+        top: 80%;
+		left: 20%;
+		width: 500px;
+        text-align: center;
+		font-size: 180%;
+        color: #fff;
+	}
+	
+	    .sliderA1 > input + label + div + label {
+        display: none;
+    }
+
+    .sliderA1 > input:checked + label + div + label {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 50;
+    }
+   
+.features {
+
+position: relative;
+top: 55px;
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+color: rgb(255,202,0);
+text-decoration: none;
+
+  padding: 0.7em 1.5em;
+  outline: 4.5px solid #d8d7d7;
+   background: rgb(255,255,255);
+	text-align: center;
+	margin: 1.4em 0em 2em 0em;
+	vertical-align: middle;
+
+  }
+
+#feat_b:hover { color: #000; background: rgb(255,202,0); }
+#feat_b:active { background: rgb(255,160,0); }
+
+.txt {
+	position: relative;
+	left: -4%;
+	top: 50px;
+	vertical-align: middle;
+}
+.cent {
+	position: relative;
+	left: 3%;
+}
+.otzv {
+position: relative;
+top: 55px;
+font: 24px/1.5 Proxima Nova, Proxima Nova Light;
+text-decoration: none;
+  padding: .7em 1.5em;
+   background: rgb(255,255,255 0);
+	text-align: center;
+	vertical-align: middle;
+}
+.otz {
+	margin: 0px auto;
+	float: left;
+	width: 400px;
+	padding-right: 60px;
+	position: relative;
+	top: 140px;
+}
+
+
+	.wrapper {
+    text-align: center;
+}
+
+.title {
+    font-size: 0.5em;
+    position: relative;
+    margin: 0 auto 1em;
+    padding: 1em 1em .25em 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title:after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 240px;
+    height: 4px;
+    margin-left: -120px;
+    content: '';
+    background-color: #fff;
+}
+
+/* Clip text element */
+.clip-text {
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+
+    margin: .25em;
+    padding: .5em .75em;
+    text-align: center;
+    /* Color fallback */
+    color: #fff;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+.clip-text:before,
+.clip-text:after {
+    position: absolute;
+    content: '';
+}
+
+/* Background */
+.clip-text:before {
+    z-index: -2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: inherit;
+}
+
+/* Text Background (black zone) */
+.clip-text:after {
+    position: absolute;
+    z-index: -1;
+    top: .125em;
+    right: .125em;
+    bottom: .125em;
+    left: .125em;
+    background-color: #a60000;
+}
+
+/* Change the background position to display letter when the black zone isn't here */
+.clip-text--no-textzone:before {
+    background-position: -.65em 0;
+}
+
+.clip-text--no-textzone:after {
+    content: none;
+}
+
+/* Use Background-size cover for photo background and no-repeat background */
+.clip-text--cover,
+.clip-text--cover:before {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+            background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* Background image from http://thepatternlibrary.com/ and http://lorempixel.com */
+.clip-text_one {
+    background-image: url(../images/fon1.png);
+	
+}
+
+.hit-the-floor {
+color: #fff;
+font-size: 12em;
+font-weight: bold;
+font-family: Helvetica;
+text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+.hit-the-floor {
+  text-align: center;
+}
+
+.hit-the-floor1 {
+color: #fff;
+font-size: 5em;
+font-weight: bold;
+font-family: Helvetica;
+text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+.hit-the-floor1 {
+  text-align: center;
+}
+
+	
